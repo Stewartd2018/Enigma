@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Enigma Machine</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<img src="Turing.jpg"></img><hr/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1><u>Enigma</u></h1>
+		<form>
+			<input type="radio" name="encode" value="Encode">Encode</input><br>
+			<input type="radio" name="encode" value="Decode">Decode</input><br>
+			Input:<br></br>
+			<input type="text" name="input"></input><br>
+			Output:<br></br>
+			<input type="text" name="output"></input><br>
+			<input type="submit" value="ENCODE!" onclick="enigma()"></input>
+		</form>
+		<h2><u>About</u></h2>
+		<p> The Enigma machine was invented by Arthur Scherbius in 1918, right at the end of World War I. It  was used to encode German messages during WW2. The man responsible for solving the enigma, and thus being known as the father of modern computers, is Alan Turing.</p>
+	</body>
+</html>
